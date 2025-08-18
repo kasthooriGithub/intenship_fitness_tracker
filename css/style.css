@@ -1,0 +1,98 @@
+body {
+    background-color: #7ab1e7;
+    background-image: linear-gradient(rgba(255, 255, 255, 0.85), rgba(255, 255, 255, 0.85)), 
+                      url(images/bg_gym.jpeg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+
+
+.card {
+    background-color: rgba(255, 255, 255, 0.95);
+    box-shadow: 0 4px 8px rgba(24, 1, 72, 0.1);
+     transition: all 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+     background-color: #dc3545 !important;
+     color: white;
+     box-shadow: 0 10px 20px rgba(220, 53, 69, 0.3);
+}
+.card:hover h3,
+.card:hover p {
+  color: white !important;
+}
+
+
+footer {
+    margin-top: 50px;
+}
+
+#exerciseTable {
+    font-size: 0.9rem;
+}
+
+.hero-section {
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 30px;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    position: relative;
+    background: #f5f5f5; /* optional plain bg */
+    overflow: hidden;
+}
+.hero-content {
+  position: relative;
+  z-index: 2; /* make sure text is above image */
+  color: #222;
+}
+
+.hero-img {
+  position: absolute;
+  right: 5%;     /* move image to side */
+  bottom: 0;     /* stick to bottom */
+  max-width: 400px; /* control image size */
+  z-index: 1;
+}
+.btn-sm {
+    padding: 0.25rem 0.5rem;
+    font-size: 0.75rem;
+}
+.form-select {
+    width: 100%;
+    padding: 0.375rem 2.25rem 0.375rem 0.75rem;
+}
+
+option {
+    white-space: normal;
+    word-wrap: break-word;
+}
+/* Responsive adjustments */
+
+@media (max-width: 768px) {
+    .card {
+        margin-bottom: 20px;
+    }
+     .form-select {
+        font-size: 1rem;
+        padding: 0.75rem 2.25rem 0.75rem 1rem;
+    }
+    /* for small screen */
+    @media (max-width: 480px) {
+        .form-select {
+            font-size: 0.9rem;
+        }
+    }
+}
