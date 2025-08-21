@@ -63,6 +63,9 @@ require 'config.php';
                         <a class="nav-link active" href="form.php"><i class="bi bi-plus-circle"></i> Add Exercise</a>
                     </li>
                     <li class="nav-item">
+                        <a class="nav-link" href="view.php"><i class="bi bi-list"></i> View Exercises</a>
+                    </li>
+                    <li class="nav-item">
                         <a class="nav-link" href="track.php"><i class="bi bi-graph-up"></i> Progress</a>
                     </li>
                 </ul>

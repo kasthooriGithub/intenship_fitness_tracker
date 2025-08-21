@@ -30,6 +30,9 @@
                         <a class="nav-link" href="about.php"><i class="bi bi-info-circle"></i> About</a>
                     </li>
                     <li class="nav-item">
+                        <a class="nav-link" href="view.php"><i class="bi bi-list"></i> View Exercises</a>
+                    </li>
+                    <li class="nav-item">
                         <a class="nav-link active" href="contact.php"><i class="bi bi-envelope"></i> Contact</a>
                     </li>
                 </ul>
